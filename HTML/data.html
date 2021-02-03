@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>HTML Navigation</h1> <hr/>
+
+<a href="#p2">P2</a>
+
+   <p id="p1">
+   Text Alignment<br/>
+   You can set the alignment of any HTML element using the text-align style rule. text-align can be used to set the alignment for a paragraph, a section of the document, or even the whole document. text-align can be used to set alignment to left, right, center, or justified.
+   For example, suppose we want to center a paragraph. First, we’ll create a styles class called centeralign by putting the following code into the “ section of the document:
+   Read more: https://html.com/paragraphs/#ixzz6lPYGDni9
+   </p>
+
+   <p>
+    Justification<br/>
+    By default, most browsers render text with a jagged right edge.
+    
+    If you want all text rendered like in a book with an even right edge you can use a single style rule. To set all text to justified copy the following code into the “ section of your document.
+    
+    
+    The problem with justification is that many browsers get confused about where the last line of text is (which shouldn’t be justified). For example, MSIE 4.x is confused when a block of text is immediately followed by a table. Notice in this image that the last line of text stretches the words “one of our agents” across a full line:
+    Read more: https://html.com/paragraphs/#ixzz6lPYkDf4k
+   </p>
+
+
+   <p id="p2">
+    
+    <u>Indenting</u> <br/>
+
+    There are several ways to indent paragraphs and entire sections of your web page. The next few sections describe the four main techniques for indentation:
+    
+    Indenting a Paragraph
+    Indenting a Section of the Page
+    Indenting the Whole Page
+    Indenting the First Line of Each Paragraph
+    Before we begin, however, it’s worth saying a few words about 
+    Indenting a Paragraph
+    You can indent a single paragraph using styles. For example, suppose we want to indent a paragraph 50 points. First, we create a class called indented with the following style rules. Put this code in the “ section of your document.
+   </p>
+   <a href="#p1">Go to Top</a>
+   <p>
+    Indenting the First Line of Each Paragraph<br/>
+    To indent the first line of each paragraph set a style rule using text-indent. For example, the following code indents the first line of each paragraph 30 points. Copy this code into the “ section of your page:
+    
+    
+    This code indents the first line of each <P> element, but you’ll probably run into an annoying problem. If you’re like most designers you probably don’t put a P before the first paragraph or between a header like <H1> and the text that follows it. Unfortunately, that’s exactly what you’ll need to do if you want the paragraph indented. The text in these situations is part of something called “anonymous blocks” and cannot be referred to directly. To indent it you must put the text in a <P> element.
+    
+    So, for example, the following code does not have a <P> between the header and the text, so the text is not indented:
+
+    Read more: https://html.com/paragraphs/#ixzz6lPZ1n4Hw
+   </p>
+</body>
+</html>
